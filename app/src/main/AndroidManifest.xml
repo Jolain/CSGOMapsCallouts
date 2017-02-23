@@ -15,6 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.ItalyActivity" />
+        <activity android:name=".activities.CacheActivity" />
+        <activity android:name=".activities.CobbleActivity" />
+        <activity android:name=".activities.DustActivity" />
+        <activity android:name=".activities.Dust2Activity" />
+        <activity android:name=".activities.InfernoActivity" />
+        <activity android:name=".activities.MirageActivity" />
+        <activity android:name=".activities.NukeActivity" />
+        <activity android:name=".activities.OverpassActivity" />
+        <activity android:name=".activities.SeasonActivity" />
+        <activity android:name=".activities.TrainActivity"></activity>
     </application>
 
 </manifest>
