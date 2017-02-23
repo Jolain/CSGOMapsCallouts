@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import com.dorner.csgomapscallouts.R;
 
@@ -15,12 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button button_dust = (Button) findViewById(R.id.de_dust);
-        Button button_inferno = (Button) findViewById(R.id.de_inferno);
-        Button button_nuke = (Button) findViewById(R.id.de_nuke);
-        Button button_overpass = (Button) findViewById(R.id.de_overpass);
-        Button button_season = (Button) findViewById(R.id.de_season);
-        Button button_train = (Button) findViewById(R.id.de_train);
     }
 
     public void onButtonClick(View view) {
