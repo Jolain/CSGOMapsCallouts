@@ -7,7 +7,6 @@ import android.view.View;
 
 import com.dorner.csgomapscallouts.R;
 
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -21,49 +20,62 @@ public class MainActivity extends AppCompatActivity {
 
         switch (id) {
             case R.id.de_mirage: {
-                Intent intent = new Intent(getApplicationContext(), MirageActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), MirageActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_dust2: {
-                Intent intent = new Intent(getApplicationContext(), Dust2Activity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), Dust2Activity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.cs_italy: {
-                Intent intent = new Intent(getApplicationContext(), ItalyActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), ItalyActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_cache: {
-                Intent intent = new Intent(getApplicationContext(), CacheActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), CacheActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_cobblestone: {
-                Intent intent = new Intent(getApplicationContext(), CobbleActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), CobbleActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_dust: {
-                Intent intent = new Intent(getApplicationContext(), DustActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), DustActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_inferno: {
-                Intent intent = new Intent(getApplicationContext(), InfernoActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), InfernoActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_nuke: {
-                Intent intent = new Intent(getApplicationContext(), NukeActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), NukeActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_overpass: {
-                Intent intent = new Intent(getApplicationContext(), OverpassActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), OverpassActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_season: {
-                Intent intent = new Intent(getApplicationContext(), SeasonActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), SeasonActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
             case R.id.de_train: {
-                Intent intent = new Intent(getApplicationContext(), TrainActivity.class); //Application Context and Activity
+                Intent intent = new Intent(getApplicationContext(), TrainActivity.class);
                 startActivityForResult(intent, 0);
+                break;
             }
+            default:
+                break;
         }
     }
 

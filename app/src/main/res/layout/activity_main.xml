@@ -28,14 +28,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_mirage"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Dust 2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_dust2"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
         </LinearLayout>
 
         <LinearLayout
@@ -49,14 +51,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cs_italy"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Cache"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_cache"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Cobblestone"
@@ -64,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/de_cobblestone"
                 android:layout_weight="1"
-                android:textSize="9sp" />
+                android:textSize="9sp"
+                android:onClick="onButtonClick" />
         </LinearLayout>
 
         <LinearLayout
@@ -78,21 +83,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_dust"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Inferno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_inferno"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Nuke"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_nuke"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
         </LinearLayout>
 
         <LinearLayout
@@ -107,21 +115,24 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/de_overpass"
                 android:layout_weight="1"
-                android:textSize="11sp" />
+                android:textSize="11sp"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Season"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_season"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
 
             <Button
                 android:text="Train"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/de_train"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="onButtonClick" />
         </LinearLayout>
 
         <ImageView
